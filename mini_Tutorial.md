@@ -325,8 +325,7 @@ In case you would like to skip the filtering step and only dustmask the files
 before running the index-building step you can set the `dustmaskOnly` option to `true`.
 
 Since centrifuge-build expects an unzipped file
-``` 
-cd ../
+```
 zcat /path/to/filtered_fastas/dustmasked.filtered.fna.gz > /path/to/filtered_fastas/viral_sequences.fna
 ```
 
